@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+h1 {
+  font-style: oblique;
+  font-family: o;
+  font-size: 17vw;
+  text-align: center;
+  background: url(/img/headerFoto/iphone_14_pro_hero__e4ivycyx40k2_large.jpg);
+  background-position: bottom;
+  background-size: 100%;
+  color: white;
+  padding: 50px; }
+
+/*---HEADER---*/
+header {
+  font-size: 20px;
+  font-style: oblique;
+  font-family: o;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.197);
+  border: 1px solid black; }
+  header h1 {
+    font-style: oblique;
+    font-family: o;
+    font-size: 17vw;
+    text-align: center;
+    background: url(/img/headerFoto/iphone_14_pro_hero__e4ivycyx40k2_large.jpg);
+    background-position: bottom;
+    background-size: 100%;
+    color: white;
+    padding: 50px; }
+
+/*---FOOTER---*/
+footer {
+  background-image: url(/img/Footer/ElFooter.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: top;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black; }
+  footer li {
+    margin-top: 22PX;
+    list-style: none;
+    font-size: 10px;
+    font-style: oblique;
+    font-family: o; }
+    footer li img {
+      width: 35px; }
+    footer li h3 {
+      color: black;
+      margin-bottom: 10px;
+      font-size: 30px; }
+    footer li p {
+      color: black;
+      font-size: 25px; }
+    footer li iframe {
+      width: 190px;
+      height: 75px; }
+
+/*---MAIN---*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url(/img/mainFoto/FondoDePantalla.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-size: 100;
+  padding-bottom: 50px;
+  margin-top: 5px; }
+  .hero h2 {
+    color: white;
+    color: white;
+    font-size: 55px;
+    font-style: oblique;
+    font-weight: 500px;
+    font-family: 'Abyssinica SIL', serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .hero img {
+    width: 310px;
+    height: 310px;
+    transition: 1s; }
+    .hero img:hover {
+      transform: scale(1.1); }
+
+/*---FLOTANTE---*/
+.flotante img {
+  position: fixed;
+  right: 2%;
+  bottom: 8%;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  transition-timing-function: ease ease-in-out;
+  box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75);
+  -webkit-box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75);
+  -moz-box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75); }
+  .flotante img:hover {
+    width: 155px;
+    height: 155px; }
+
+/*---VIDEO---*/
+.videoInicio {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url(/img/FondoVideo/apple-iphone-13-mini-all-colors-01.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: top;
+  border: 5px solid white; }
+
+/*---FUNDAS---*/
+.fundasSili h2 {
+  font-style: oblique;
+  font-family: o;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 45px; }
+
+.fundasSili img {
+  width: 325px;
+  height: 325px;
+  transition: 1s; }
+  .fundasSili img:hover {
+    transform: scale(1.07); }
+
+.fundasSili p {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.fundasSili .siliDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.fundasRef h2 {
+  font-style: oblique;
+  font-family: o;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 45px; }
+
+.fundasRef p {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px; }
+
+.fundasRef .refDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center; }
+
+.fundasRef img {
+  width: 300px;
+  height: 300px;
+  transition: 1s; }
+  .fundasRef img:hover {
+    transform: scale(1.07); }
+
+/*---VIDRIOS---*/
+.grid-vidrios {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: o;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 40px;
+  margin-bottom: 60px; }
+  .grid-vidrios h3 {
+    margin-top: 16px; }
+  .grid-vidrios div img {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    transition: 1s; }
+    .grid-vidrios div img:hover {
+      transform: scale(1.07); }
+
+.grid-item p {
+  font-style: oblique;
+  font-family: o;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 45px; }
+
+/*---ACCESORIOS---*/
+.grid-accesorios {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-style: oblique;
+  font-family: o;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 500px;
+  gap: 5px; }
+  .grid-accesorios h3 {
+    margin-top: 5px; }
+  .grid-accesorios div img {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    transition: 1s; }
+    .grid-accesorios div img:hover {
+      transform: scale(1.07); }
+
+.accesorios p {
+  font-size: 45px; }
+
+.auriculares p {
+  font-size: 45px; }
+
+.img-1 {
+  grid-column: span 2;
+  width: 350px;
+  height: 300px; }
+
+.img-2 {
+  grid-column: span 2;
+  width: 300px;
+  height: 300px; }
+
+.grid-auriculares {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-style: oblique;
+  font-family: o;
+  width: 100%;
+  margin-top: px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 500px;
+  gap: 5px; }
+  .grid-auriculares h3 {
+    margin-top: 5px; }
+  .grid-auriculares div img {
+    width: 90%;
+    height: 90%;
+    object-fit: fill;
+    transition: 1s; }
+    .grid-auriculares div img:hover {
+      transform: scale(1.07); }
+
+.img-3 {
+  grid-column: span 2;
+  width: 350px;
+  height: 320px; }
+
+.img-4 {
+  grid-column: span 2;
+  width: 350px;
+  height: 320px; }
+
+h5 {
+  font-size: font-size;
+  color: white; }
+
+img {
+  width: 240px; }
+
+.boton {
+  background-color: white;
+  border: 2pz solid black; }
+
+.album {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.album {
+  background-color: black;
+  border: 1px solid white; }
+
+.grupo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.grupo-2 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; }
+
+/*---REGISTRO---*/
+.registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/fondoRegistro/tecladoruso.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  color: white;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: o;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  margin-top: 7px; }
+  .registro label {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .registro textarea {
+    width: 300px;
+    height: 75px; }
+
+/*---PARRAFO---*/
+.parrafoInicio {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15PX;
+  background-color: black;
+  font-size: 25px;
+  font-style: oblique;
+  font-weight: 500px;
+  font-family: 'Abyssinica SIL', serif; }
+
+/*!MEDIA-QUERY*/
+@media screen and (max-width: 700px) {
+  .grid-vidrios {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 700px) {
+  .grid-accesorios {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }
+
+@media screen and (max-width: 700px) {
+  .grid-auriculares {
+    grid-template-columns: 1fr; }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1; } }

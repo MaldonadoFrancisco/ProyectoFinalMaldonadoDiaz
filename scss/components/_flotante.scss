@@ -1,0 +1,19 @@
+/*---FLOTANTE---*/
+.flotante {
+  img {
+    position: fixed;
+    right: 2%;
+    bottom: 8%;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    transition-timing-function: ease ease-in-out;
+    box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75);
+    -webkit-box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75);
+    -moz-box-shadow: 10px 10px 24px 4px rgba(164, 26, 227, 0.75);
+    &:hover{ 
+      width: 155px;
+      height: 155px;
+    }
+  }
+}

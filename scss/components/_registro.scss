@@ -1,0 +1,32 @@
+@import "../base/variables";
+
+/*---REGISTRO---*/
+.registro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(../img/fondoRegistro/tecladoruso.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 95vh;
+  color: $color-principal;
+  font-size: 25px;
+  font-style: oblique;
+  font-family: o;
+  padding-top: 500px;
+  padding-bottom: 500px;
+  margin-top: 7px;
+  label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  textarea {
+    width: 300px;
+    height: 75px;
+  }
+}

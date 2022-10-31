@@ -1,0 +1,38 @@
+/*---VIDRIOS---*/
+.grid-vidrios{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  font-style: oblique;
+  font-family:o;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: auto;
+  gap: 40px;
+  margin-bottom: 60px;
+  h3{
+    margin-top: 16px;
+  }
+  div{
+  img{
+    width: 90%;
+    height: 90%;
+    object-fit:fill;
+    transition: 1s;
+    &:hover{
+      transform: scale(1.07);
+    }
+  }
+}
+}
+.grid-item p{
+  font-style: oblique;
+  font-family:o;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 45px;
+}

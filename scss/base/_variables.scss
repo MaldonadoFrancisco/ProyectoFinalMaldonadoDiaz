@@ -1,0 +1,70 @@
+$color-principal: rgb(255, 255, 255);
+$color-secundario: rgb(0, 0, 0);
+
+//!LIST
+$colores:
+black,
+rgb(255, 149, 1),
+white,
+rgb(255, 8, 255);
+
+$font-size:
+18px,
+22px,
+32px,
+36px;
+
+
+h5{
+    font-size: nth(font-size, 1);
+    color: nth($colores, 3);
+}
+
+
+//!OPERATION
+$ancho:500px;
+img{
+    width: $ancho / 2 - 10;
+}
+
+//MAP
+$boton:(
+    bg-boton: white,
+    borde: 2pz solid black,
+    color-text: black,
+);
+.boton{
+    background-color: map-get($boton, bg-boton);
+    border: map-get($boton, borde);
+}
+
+
+//!EXTENDS
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.album{
+    background-color: black;
+    border: 1px solid white;
+    @extend %flex;
+}
+
+//!MIXIN
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.grupo{
+    @include flex (flex, space-between, center);
+}
+
+.grupo-2{
+    @include flex (flex, center, flex-start);
+}
+
+

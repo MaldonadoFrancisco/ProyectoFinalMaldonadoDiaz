@@ -1,0 +1,28 @@
+/*!MEDIA-QUERY*/
+@media screen and (max-width:700px) {
+  .grid-vidrios {
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+@media screen and (max-width:700px) {
+  .grid-accesorios {
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
+@media screen and (max-width:700px) {
+  .grid-auriculares {
+    grid-template-columns: 1fr;
+  }
+  .grid-item {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+}
